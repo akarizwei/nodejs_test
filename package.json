@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-test",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha",
+    "start": "node app.js"
+  },
+  "author": "akarizwei",
+  "license": "--",
+  "devDependencies": {
+    "chai": "^5.1.1",
+    "mocha": "^10.6.0"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "supertest": "^7.0.0"
+  }
+}
